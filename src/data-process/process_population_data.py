@@ -6,7 +6,7 @@ import pandas as pd
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 RAW_POP_DATA_FOLDER = PROJECT_ROOT / "data/raw/population"
-PROCESSED_POP = PROJECT_ROOT / "data/processed/PROCESSED_POPulation_data.csv"
+PROCESSED_POP = PROJECT_ROOT / "data/processed/processed_population_data.csv"
 
 
 def process_population_data(folder_path):
@@ -26,11 +26,13 @@ def process_population_data(folder_path):
 
             records.append(
                 {
+                    "CountryID": entry.get("country", {}).get("id"),
                     "Country": entry.get("country", {}).get("value"),
                     "Year": entry.get("date"),
                     "Population": entry.get("value"),
                 }
             )
+
 
     processed_data = pd.DataFrame(records)
     if processed_data.empty:
@@ -40,7 +42,7 @@ def process_population_data(folder_path):
     processed_data["Population"] = pd.to_numeric(processed_data["Population"], errors="coerce")
     processed_data = processed_data.dropna(subset=["Country", "Year", "Population"])
     processed_data["Year"] = processed_data["Year"].astype(int)
-    processed_data = processed_data.sort_values(["Country", "Year"], ascending=[True, False])
+    processed_data = processed_data.sort_values(["CountryID", "Year"], ascending=[True, False])
 
     return processed_data
 

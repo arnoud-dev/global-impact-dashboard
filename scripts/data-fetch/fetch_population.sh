@@ -3,15 +3,10 @@
 save_dir="data/raw/population"
 mkdir -p "$save_dir"
 
-countries_line=$(grep '^countries=' config.txt | cut -d'=' -f2)
-IFS=';' read -ra countries <<< "$countries_line"
+echo "Fetching all countries..."
 
-for code in "${countries[@]}"; do
-  echo "Fetching $code..."
+curl -fsS \
+  "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json&per_page=20000" \
+  > "$save_dir/all_countries.json"
 
-  curl -fsS \
-    "https://api.worldbank.org/v2/country/$code/indicator/SP.POP.TOTL?format=json&per_page=1000" \
-    > "$save_dir/$code.json"
-
-  echo "Saved raw data → $save_dir/$code.json"
-done
+echo "Saved raw data → $save_dir/all_countries.json"
