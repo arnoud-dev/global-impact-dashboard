@@ -5,8 +5,8 @@ import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
-raw_pop_data_folder = PROJECT_ROOT / "data/raw/population"
-processed_pop = PROJECT_ROOT / "data/processed/processed_population_data.csv"
+RAW_POP_DATA_FOLDER = PROJECT_ROOT / "data/raw/population"
+PROCESSED_POP = PROJECT_ROOT / "data/processed/PROCESSED_POPulation_data.csv"
 
 
 def process_population_data(folder_path):
@@ -47,10 +47,10 @@ def process_population_data(folder_path):
 
 if __name__ == "__main__":
     print("Processing population data...")
-    processed = process_population_data(raw_pop_data_folder)
+    processed = process_population_data(RAW_POP_DATA_FOLDER)
     if processed.empty:
         print("No population records found.")
     else:
-        processed_pop.parent.mkdir(parents=True, exist_ok=True)
-        processed.to_csv(processed_pop, index=False)
-        print(f"Saved {len(processed)} records to {processed_pop}")
+        PROCESSED_POP.parent.mkdir(parents=True, exist_ok=True)
+        processed.to_csv(PROCESSED_POP, index=False)
+        print(f"Saved {len(processed)} records to {PROCESSED_POP}")

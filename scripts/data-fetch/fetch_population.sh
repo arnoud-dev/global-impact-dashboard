@@ -3,12 +3,8 @@
 save_dir="data/raw/population"
 mkdir -p "$save_dir"
 
-countries=(
-  BEL FRA NLD DEU FIN
-  USA CHN IND JPN GBR
-  ITA ESP CAN BRA AUS
-  KOR IDN MEX ZAF TUR
-)
+countries_line=$(grep '^countries=' config.txt | cut -d'=' -f2)
+IFS=';' read -ra countries <<< "$countries_line"
 
 for code in "${countries[@]}"; do
   echo "Fetching $code..."
@@ -18,5 +14,4 @@ for code in "${countries[@]}"; do
     > "$save_dir/$code.json"
 
   echo "Saved raw data → $save_dir/$code.json"
-  echo "---------------------------"
 done
