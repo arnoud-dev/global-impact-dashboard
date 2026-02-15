@@ -1,0 +1,3 @@
+id,scenario_name,scenario_type
+1,Historical,Observed
+2,ML Prediction,Forecast

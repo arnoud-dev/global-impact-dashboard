@@ -5,7 +5,7 @@ import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 RAW_METADATA = PROJECT_ROOT / "data/raw/metadata/worldbank_countries.json"
-PROCESSED_METADATA = PROJECT_ROOT / "data/processed/metadata/processed_worldbank_countries.csv"
+PROCESSED_METADATA = PROJECT_ROOT / "data/dimensions/dim_country.csv"
 
 
 def process_country_metadata(file_path):
