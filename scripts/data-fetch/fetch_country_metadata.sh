@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 save_dir="data/raw/metadata"
 mkdir -p "$save_dir"
