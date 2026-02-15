@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 save_dir="data/raw/emissions"
 mkdir -p "$save_dir"
@@ -9,7 +10,9 @@ echo "Fetching sector emissions dataset..."
 
 curl -fsS \
   "https://ourworldindata.org/grapher/ghg-emissions-by-sector.csv" \
-  > "$file"
+  -o "$file"
+
+echo "Download complete."
 
 countries_file="$save_dir/countries.csv"
 aggregates_file="$save_dir/aggregates.csv"
@@ -17,7 +20,9 @@ aggregates_file="$save_dir/aggregates.csv"
 echo "Entity,Code" > "$countries_file"
 echo "Entity,Code" > "$aggregates_file"
 
-awk -F',' 'NR>1 {print $1","$2}' "$file" | sort -u | \
+echo "Splitting countries and aggregates..."
+
+tail -n +2 "$file" | cut -d',' -f1,2 | sort -u |
 while IFS=',' read -r entity code; do
   if [[ "$code" == OWID_* ]]; then
     echo "$entity,$code" >> "$aggregates_file"

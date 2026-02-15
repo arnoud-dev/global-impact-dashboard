@@ -1,5 +1,5 @@
 CREATE TABLE "FactCountryYearMetrics" (
-  "id" integer PRIMARY KEY,
+  "id" INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   "country_key" integer NOT NULL,
   "year_key" integer NOT NULL,
   "scenario_key" integer NOT NULL,
@@ -17,7 +17,7 @@ CREATE TABLE "FactCountryYearMetrics" (
 );
 
 CREATE TABLE "FactSectorEmissions" (
-  "id" integer PRIMARY KEY,
+  "id" INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   "year_key" integer NOT NULL,
   "country_key" integer NOT NULL,
   "sector_key" integer NOT NULL,
