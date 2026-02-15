@@ -3,6 +3,10 @@ from dotenv import load_dotenv
 import pandas as pd
 import psycopg2
 from psycopg2.extras import execute_values
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+INPUT_FILE = PROJECT_ROOT / "data/processed/sector_emissions.csv"
 
 load_dotenv()
 
@@ -14,8 +18,7 @@ DB_CONFIG = {
     "port": os.getenv("DB_PORT"),
 }
 
-INPUT_FILE = "data/processed/sector_emissions.csv"
-SCENARIO_ID = 1
+SCENARIO_NAME = "Historical"
 
 
 def load_dimension_maps(conn):
@@ -29,14 +32,22 @@ def load_dimension_maps(conn):
         cur.execute('SELECT id, sector_name FROM "DimSector"')
         sector_map = {name: sid for sid, name in cur.fetchall()}
 
-    return country_map, year_map, sector_map
+        cur.execute('SELECT id, scenario_name FROM "DimScenario"')
+        scenario_map = {name: sid for sid, name in cur.fetchall()}
+
+    return country_map, year_map, sector_map, scenario_map
 
 
 def main():
     print("Connecting to database...")
     conn = psycopg2.connect(**DB_CONFIG)
 
-    country_map, year_map, sector_map = load_dimension_maps(conn)
+    country_map, year_map, sector_map, scenario_map = load_dimension_maps(conn)
+    scenario_key = scenario_map[SCENARIO_NAME]
+
+    if not INPUT_FILE.exists():
+        print(f"Missing processed emissions file: {INPUT_FILE}")
+        return
 
     print("Loading processed emissions data...")
     df = pd.read_csv(INPUT_FILE)
@@ -53,34 +64,35 @@ def main():
     rows = []
 
     print("Mapping dimension keys...")
-
     for _, r in df_long.iterrows():
         iso3 = r["Code"]
         year = r["Year"]
         sector = r["sector"]
         emissions = r["emissions"]
 
-        if iso3 not in country_map:
-            continue
-        if year not in year_map:
-            continue
-        if sector not in sector_map:
+        if iso3 not in country_map or year not in year_map or sector not in sector_map:
             continue
 
         rows.append((
             year_map[year],
             country_map[iso3],
             sector_map[sector],
-            SCENARIO_ID,
+            scenario_key,
             float(emissions)
         ))
+
+    if not rows:
+        print("No rows to insert.")
+        return
 
     print(f"Rows ready for insert: {len(rows)}")
 
     query = """
         INSERT INTO "FactSectorEmissions"
         (year_key, country_key, sector_key, scenario_key, emissions)
-        VALUES %s;
+        VALUES %s
+        ON CONFLICT (year_key, country_key, sector_key, scenario_key)
+        DO NOTHING;
     """
 
     with conn.cursor() as cur:

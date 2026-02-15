@@ -1,12 +1,12 @@
-id,sector_name
-1,Agriculture
-2,Land-use change and forestry
-3,Waste
-4,Buildings
-5,Industry
-6,Manufacturing and construction
-7,Transport
-8,Electricity and heat
-9,Fugitive emissions
-10,Other fuel combustion
-11,Aviation and shipping
+sector_name
+Agriculture
+Land-use change and forestry
+Waste
+Buildings
+Industry
+Manufacturing and construction
+Transport
+Electricity and heat
+Fugitive emissions
+Other fuel combustion
+Aviation and shipping

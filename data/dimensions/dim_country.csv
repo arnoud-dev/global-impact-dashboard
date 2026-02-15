@@ -1,218 +1,212 @@
-id,iso2,iso3,country_name,region
-1,AF,AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan"
-2,AL,ALB,Albania,Europe & Central Asia
-3,DZ,DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan"
-4,AS,ASM,American Samoa,East Asia & Pacific
-5,AD,AND,Andorra,Europe & Central Asia
-6,AO,AGO,Angola,Sub-Saharan Africa 
-7,AG,ATG,Antigua and Barbuda,Latin America & Caribbean 
-8,AR,ARG,Argentina,Latin America & Caribbean 
-9,AM,ARM,Armenia,Europe & Central Asia
-10,AW,ABW,Aruba,Latin America & Caribbean 
-11,AU,AUS,Australia,East Asia & Pacific
-12,AT,AUT,Austria,Europe & Central Asia
-13,AZ,AZE,Azerbaijan,Europe & Central Asia
-14,BS,BHS,"Bahamas, The",Latin America & Caribbean 
-15,BH,BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan"
-16,BD,BGD,Bangladesh,South Asia
-17,BB,BRB,Barbados,Latin America & Caribbean 
-18,BY,BLR,Belarus,Europe & Central Asia
-19,BE,BEL,Belgium,Europe & Central Asia
-20,BZ,BLZ,Belize,Latin America & Caribbean 
-21,BJ,BEN,Benin,Sub-Saharan Africa 
-22,BM,BMU,Bermuda,North America
-23,BT,BTN,Bhutan,South Asia
-24,BO,BOL,Bolivia,Latin America & Caribbean 
-25,BA,BIH,Bosnia and Herzegovina,Europe & Central Asia
-26,BW,BWA,Botswana,Sub-Saharan Africa 
-27,BR,BRA,Brazil,Latin America & Caribbean 
-28,VG,VGB,British Virgin Islands,Latin America & Caribbean 
-29,BN,BRN,Brunei Darussalam,East Asia & Pacific
-30,BG,BGR,Bulgaria,Europe & Central Asia
-31,BF,BFA,Burkina Faso,Sub-Saharan Africa 
-32,BI,BDI,Burundi,Sub-Saharan Africa 
-33,CV,CPV,Cabo Verde,Sub-Saharan Africa 
-34,KH,KHM,Cambodia,East Asia & Pacific
-35,CM,CMR,Cameroon,Sub-Saharan Africa 
-36,CA,CAN,Canada,North America
-37,KY,CYM,Cayman Islands,Latin America & Caribbean 
-38,CF,CAF,Central African Republic,Sub-Saharan Africa 
-39,TD,TCD,Chad,Sub-Saharan Africa 
-40,JG,CHI,Channel Islands,Europe & Central Asia
-41,CL,CHL,Chile,Latin America & Caribbean 
-42,CN,CHN,China,East Asia & Pacific
-43,CO,COL,Colombia,Latin America & Caribbean 
-44,KM,COM,Comoros,Sub-Saharan Africa 
-45,CD,COD,"Congo, Dem. Rep.",Sub-Saharan Africa 
-46,CG,COG,"Congo, Rep.",Sub-Saharan Africa 
-47,CR,CRI,Costa Rica,Latin America & Caribbean 
-48,CI,CIV,Cote d'Ivoire,Sub-Saharan Africa 
-49,HR,HRV,Croatia,Europe & Central Asia
-50,CU,CUB,Cuba,Latin America & Caribbean 
-51,CW,CUW,Curacao,Latin America & Caribbean 
-52,CY,CYP,Cyprus,Europe & Central Asia
-53,CZ,CZE,Czechia,Europe & Central Asia
-54,DK,DNK,Denmark,Europe & Central Asia
-55,DJ,DJI,Djibouti,"Middle East, North Africa, Afghanistan & Pakistan"
-56,DM,DMA,Dominica,Latin America & Caribbean 
-57,DO,DOM,Dominican Republic,Latin America & Caribbean 
-58,EC,ECU,Ecuador,Latin America & Caribbean 
-59,EG,EGY,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan"
-60,SV,SLV,El Salvador,Latin America & Caribbean 
-61,GQ,GNQ,Equatorial Guinea,Sub-Saharan Africa 
-62,ER,ERI,Eritrea,Sub-Saharan Africa 
-63,EE,EST,Estonia,Europe & Central Asia
-64,SZ,SWZ,Eswatini,Sub-Saharan Africa 
-65,ET,ETH,Ethiopia,Sub-Saharan Africa 
-66,FO,FRO,Faroe Islands,Europe & Central Asia
-67,FJ,FJI,Fiji,East Asia & Pacific
-68,FI,FIN,Finland,Europe & Central Asia
-69,FR,FRA,France,Europe & Central Asia
-70,PF,PYF,French Polynesia,East Asia & Pacific
-71,GA,GAB,Gabon,Sub-Saharan Africa 
-72,GM,GMB,"Gambia, The",Sub-Saharan Africa 
-73,GE,GEO,Georgia,Europe & Central Asia
-74,DE,DEU,Germany,Europe & Central Asia
-75,GH,GHA,Ghana,Sub-Saharan Africa 
-76,GI,GIB,Gibraltar,Europe & Central Asia
-77,GR,GRC,Greece,Europe & Central Asia
-78,GL,GRL,Greenland,Europe & Central Asia
-79,GD,GRD,Grenada,Latin America & Caribbean 
-80,GU,GUM,Guam,East Asia & Pacific
-81,GT,GTM,Guatemala,Latin America & Caribbean 
-82,GN,GIN,Guinea,Sub-Saharan Africa 
-83,GW,GNB,Guinea-Bissau,Sub-Saharan Africa 
-84,GY,GUY,Guyana,Latin America & Caribbean 
-85,HT,HTI,Haiti,Latin America & Caribbean 
-86,HN,HND,Honduras,Latin America & Caribbean 
-87,HK,HKG,"Hong Kong SAR, China",East Asia & Pacific
-88,HU,HUN,Hungary,Europe & Central Asia
-89,IS,ISL,Iceland,Europe & Central Asia
-90,IN,IND,India,South Asia
-91,ID,IDN,Indonesia,East Asia & Pacific
-92,IR,IRN,"Iran, Islamic Rep.","Middle East, North Africa, Afghanistan & Pakistan"
-93,IQ,IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan"
-94,IE,IRL,Ireland,Europe & Central Asia
-95,IM,IMN,Isle of Man,Europe & Central Asia
-96,IL,ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan"
-97,IT,ITA,Italy,Europe & Central Asia
-98,JM,JAM,Jamaica,Latin America & Caribbean 
-99,JP,JPN,Japan,East Asia & Pacific
-100,JO,JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan"
-101,KZ,KAZ,Kazakhstan,Europe & Central Asia
-102,KE,KEN,Kenya,Sub-Saharan Africa 
-103,KI,KIR,Kiribati,East Asia & Pacific
-104,KP,PRK,"Korea, Dem. People's Rep.",East Asia & Pacific
-105,KR,KOR,"Korea, Rep.",East Asia & Pacific
-106,XK,XKX,Kosovo,Europe & Central Asia
-107,KW,KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan"
-108,KG,KGZ,Kyrgyz Republic,Europe & Central Asia
-109,LA,LAO,Lao PDR,East Asia & Pacific
-110,LV,LVA,Latvia,Europe & Central Asia
-111,LB,LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan"
-112,LS,LSO,Lesotho,Sub-Saharan Africa 
-113,LR,LBR,Liberia,Sub-Saharan Africa 
-114,LY,LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan"
-115,LI,LIE,Liechtenstein,Europe & Central Asia
-116,LT,LTU,Lithuania,Europe & Central Asia
-117,LU,LUX,Luxembourg,Europe & Central Asia
-118,MO,MAC,"Macao SAR, China",East Asia & Pacific
-119,MG,MDG,Madagascar,Sub-Saharan Africa 
-120,MW,MWI,Malawi,Sub-Saharan Africa 
-121,MY,MYS,Malaysia,East Asia & Pacific
-122,MV,MDV,Maldives,South Asia
-123,ML,MLI,Mali,Sub-Saharan Africa 
-124,MT,MLT,Malta,"Middle East, North Africa, Afghanistan & Pakistan"
-125,MH,MHL,Marshall Islands,East Asia & Pacific
-126,MR,MRT,Mauritania,Sub-Saharan Africa 
-127,MU,MUS,Mauritius,Sub-Saharan Africa 
-128,MX,MEX,Mexico,Latin America & Caribbean 
-129,FM,FSM,"Micronesia, Fed. Sts.",East Asia & Pacific
-130,MD,MDA,Moldova,Europe & Central Asia
-131,MC,MCO,Monaco,Europe & Central Asia
-132,MN,MNG,Mongolia,East Asia & Pacific
-133,ME,MNE,Montenegro,Europe & Central Asia
-134,MA,MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan"
-135,MZ,MOZ,Mozambique,Sub-Saharan Africa 
-136,MM,MMR,Myanmar,East Asia & Pacific
-137,,NAM,Namibia,Sub-Saharan Africa 
-138,NR,NRU,Nauru,East Asia & Pacific
-139,NP,NPL,Nepal,South Asia
-140,NL,NLD,Netherlands,Europe & Central Asia
-141,NC,NCL,New Caledonia,East Asia & Pacific
-142,NZ,NZL,New Zealand,East Asia & Pacific
-143,NI,NIC,Nicaragua,Latin America & Caribbean 
-144,NE,NER,Niger,Sub-Saharan Africa 
-145,NG,NGA,Nigeria,Sub-Saharan Africa 
-146,MK,MKD,North Macedonia,Europe & Central Asia
-147,MP,MNP,Northern Mariana Islands,East Asia & Pacific
-148,NO,NOR,Norway,Europe & Central Asia
-149,OM,OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan"
-150,PK,PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan"
-151,PW,PLW,Palau,East Asia & Pacific
-152,PA,PAN,Panama,Latin America & Caribbean 
-153,PG,PNG,Papua New Guinea,East Asia & Pacific
-154,PY,PRY,Paraguay,Latin America & Caribbean 
-155,PE,PER,Peru,Latin America & Caribbean 
-156,PH,PHL,Philippines,East Asia & Pacific
-157,PL,POL,Poland,Europe & Central Asia
-158,PT,PRT,Portugal,Europe & Central Asia
-159,PR,PRI,Puerto Rico (US),Latin America & Caribbean 
-160,QA,QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan"
-161,RO,ROU,Romania,Europe & Central Asia
-162,RU,RUS,Russian Federation,Europe & Central Asia
-163,RW,RWA,Rwanda,Sub-Saharan Africa 
-164,WS,WSM,Samoa,East Asia & Pacific
-165,SM,SMR,San Marino,Europe & Central Asia
-166,ST,STP,Sao Tome and Principe,Sub-Saharan Africa 
-167,SA,SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan"
-168,SN,SEN,Senegal,Sub-Saharan Africa 
-169,RS,SRB,Serbia,Europe & Central Asia
-170,SC,SYC,Seychelles,Sub-Saharan Africa 
-171,SL,SLE,Sierra Leone,Sub-Saharan Africa 
-172,SG,SGP,Singapore,East Asia & Pacific
-173,SX,SXM,Sint Maarten (Dutch part),Latin America & Caribbean 
-174,SK,SVK,Slovak Republic,Europe & Central Asia
-175,SI,SVN,Slovenia,Europe & Central Asia
-176,SB,SLB,Solomon Islands,East Asia & Pacific
-177,SO,SOM,"Somalia, Fed. Rep.",Sub-Saharan Africa 
-178,ZA,ZAF,South Africa,Sub-Saharan Africa 
-179,SS,SSD,South Sudan,Sub-Saharan Africa 
-180,ES,ESP,Spain,Europe & Central Asia
-181,LK,LKA,Sri Lanka,South Asia
-182,KN,KNA,St. Kitts and Nevis,Latin America & Caribbean 
-183,LC,LCA,St. Lucia,Latin America & Caribbean 
-184,MF,MAF,St. Martin (French part),Latin America & Caribbean 
-185,VC,VCT,St. Vincent and the Grenadines,Latin America & Caribbean 
-186,SD,SDN,Sudan,Sub-Saharan Africa 
-187,SR,SUR,Suriname,Latin America & Caribbean 
-188,SE,SWE,Sweden,Europe & Central Asia
-189,CH,CHE,Switzerland,Europe & Central Asia
-190,SY,SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan"
-191,TJ,TJK,Tajikistan,Europe & Central Asia
-192,TZ,TZA,Tanzania,Sub-Saharan Africa 
-193,TH,THA,Thailand,East Asia & Pacific
-194,TL,TLS,Timor-Leste,East Asia & Pacific
-195,TG,TGO,Togo,Sub-Saharan Africa 
-196,TO,TON,Tonga,East Asia & Pacific
-197,TT,TTO,Trinidad and Tobago,Latin America & Caribbean 
-198,TN,TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan"
-199,TR,TUR,Turkiye,Europe & Central Asia
-200,TM,TKM,Turkmenistan,Europe & Central Asia
-201,TC,TCA,Turks and Caicos Islands,Latin America & Caribbean 
-202,TV,TUV,Tuvalu,East Asia & Pacific
-203,UG,UGA,Uganda,Sub-Saharan Africa 
-204,UA,UKR,Ukraine,Europe & Central Asia
-205,AE,ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan"
-206,GB,GBR,United Kingdom,Europe & Central Asia
-207,US,USA,United States,North America
-208,UY,URY,Uruguay,Latin America & Caribbean 
-209,UZ,UZB,Uzbekistan,Europe & Central Asia
-210,VU,VUT,Vanuatu,East Asia & Pacific
-211,VE,VEN,"Venezuela, RB",Latin America & Caribbean 
-212,VN,VNM,Viet Nam,East Asia & Pacific
-213,VI,VIR,Virgin Islands (U.S.),Latin America & Caribbean 
-214,PS,PSE,West Bank and Gaza,"Middle East, North Africa, Afghanistan & Pakistan"
-215,YE,YEM,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan"
-216,ZM,ZMB,Zambia,Sub-Saharan Africa 
-217,ZW,ZWE,Zimbabwe,Sub-Saharan Africa 
+iso3,iso2,country_name,region_id,capital,longitude,latitude
+AFG,AF,Afghanistan,MEA,Kabul,69.1761,34.5228
+ALB,AL,Albania,ECS,Tirane,19.8172,41.3317
+DZA,DZ,Algeria,MEA,Algiers,3.05097,36.7397
+ASM,AS,American Samoa,EAS,Pago Pago,-170.691,-14.2846
+AND,AD,Andorra,ECS,Andorra la Vella,1.5218,42.5075
+AGO,AO,Angola,SSF,Luanda,13.242,-8.81155
+ATG,AG,Antigua and Barbuda,LCN,Saint John's,-61.8456,17.1175
+ARG,AR,Argentina,LCN,Buenos Aires,-58.4173,-34.6118
+ARM,AM,Armenia,ECS,Yerevan,44.509,40.1596
+ABW,AW,Aruba,LCN,Oranjestad,-70.0167,12.5167
+AUS,AU,Australia,EAS,Canberra,149.129,-35.282
+AUT,AT,Austria,ECS,Vienna,16.3798,48.2201
+AZE,AZ,Azerbaijan,ECS,Baku,49.8932,40.3834
+BHS,BS,"Bahamas, The",LCN,Nassau,-77.339,25.0661
+BHR,BH,Bahrain,MEA,Manama,50.5354,26.1921
+BGD,BD,Bangladesh,SAS,Dhaka,90.4113,23.7055
+BRB,BB,Barbados,LCN,Bridgetown,-59.6105,13.0935
+BLR,BY,Belarus,ECS,Minsk,27.5766,53.9678
+BEL,BE,Belgium,ECS,Brussels,4.36761,50.8371
+BLZ,BZ,Belize,LCN,Belmopan,-88.7713,17.2534
+BEN,BJ,Benin,SSF,Porto-Novo,2.6323,6.4779
+BMU,BM,Bermuda,NAC,Hamilton,-64.706,32.3293
+BTN,BT,Bhutan,SAS,Thimphu,89.6177,27.5768
+BOL,BO,Bolivia,LCN,La Paz,-66.1936,-13.9908
+BIH,BA,Bosnia and Herzegovina,ECS,Sarajevo,18.4214,43.8607
+BWA,BW,Botswana,SSF,Gaborone,25.9201,-24.6544
+BRA,BR,Brazil,LCN,Brasilia,-47.9292,-15.7801
+VGB,VG,British Virgin Islands,LCN,Road Town,-64.623056,18.431389
+BRN,BN,Brunei Darussalam,EAS,Bandar Seri Begawan,114.946,4.94199
+BGR,BG,Bulgaria,ECS,Sofia,23.3238,42.7105
+BFA,BF,Burkina Faso,SSF,Ouagadougou,-1.53395,12.3605
+BDI,BI,Burundi,SSF,Bujumbura,29.3639,-3.3784
+CPV,CV,Cabo Verde,SSF,Praia,-23.5087,14.9218
+KHM,KH,Cambodia,EAS,Phnom Penh,104.874,11.5556
+CMR,CM,Cameroon,SSF,Yaounde,11.5174,3.8721
+CAN,CA,Canada,NAC,Ottawa,-75.6919,45.4215
+CYM,KY,Cayman Islands,LCN,George Town,-81.3857,19.3022
+CAF,CF,Central African Republic,SSF,Bangui,21.6407,5.63056
+TCD,TD,Chad,SSF,N'Djamena,15.0445,12.1048
+CHL,CL,Chile,LCN,Santiago,-70.6475,-33.475
+CHN,CN,China,EAS,Beijing,116.286,40.0495
+COL,CO,Colombia,LCN,Bogota,-74.082,4.60987
+COM,KM,Comoros,SSF,Moroni,43.2418,-11.6986
+COD,CD,"Congo, Dem. Rep.",SSF,Kinshasa,15.3222,-4.325
+COG,CG,"Congo, Rep.",SSF,Brazzaville,15.2662,-4.2767
+CRI,CR,Costa Rica,LCN,San Jose,-84.0089,9.63701
+CIV,CI,Cote d'Ivoire,SSF,Yamoussoukro,-4.0305,5.332
+HRV,HR,Croatia,ECS,Zagreb,15.9614,45.8069
+CUB,CU,Cuba,LCN,Havana,-82.3667,23.1333
+CUW,CW,Curacao,LCN,Willemstad,,
+CYP,CY,Cyprus,ECS,Nicosia,33.3736,35.1676
+CZE,CZ,Czechia,ECS,Prague,14.4205,50.0878
+DNK,DK,Denmark,ECS,Copenhagen,12.5681,55.6763
+DJI,DJ,Djibouti,MEA,Djibouti,43.1425,11.5806
+DMA,DM,Dominica,LCN,Roseau,-61.39,15.2976
+DOM,DO,Dominican Republic,LCN,Santo Domingo,-69.8908,18.479
+ECU,EC,Ecuador,LCN,Quito,-78.5243,-0.229498
+EGY,EG,"Egypt, Arab Rep.",MEA,Cairo,31.2461,30.0982
+SLV,SV,El Salvador,LCN,San Salvador,-89.2073,13.7034
+GNQ,GQ,Equatorial Guinea,SSF,Malabo,8.7741,3.7523
+ERI,ER,Eritrea,SSF,Asmara,38.9183,15.3315
+EST,EE,Estonia,ECS,Tallinn,24.7586,59.4392
+SWZ,SZ,Eswatini,SSF,Mbabane,31.4659,-26.5225
+ETH,ET,Ethiopia,SSF,Addis Ababa,38.7468,9.02274
+FRO,FO,Faroe Islands,ECS,Torshavn,-6.91181,61.8926
+FJI,FJ,Fiji,EAS,Suva,178.399,-18.1149
+FIN,FI,Finland,ECS,Helsinki,24.9525,60.1608
+FRA,FR,France,ECS,Paris,2.35097,48.8566
+PYF,PF,French Polynesia,EAS,Papeete,-149.57,-17.535
+GAB,GA,Gabon,SSF,Libreville,9.45162,0.38832
+GMB,GM,"Gambia, The",SSF,Banjul,-16.5885,13.4495
+GEO,GE,Georgia,ECS,Tbilisi,44.793,41.71
+DEU,DE,Germany,ECS,Berlin,13.4115,52.5235
+GHA,GH,Ghana,SSF,Accra,-0.20795,5.57045
+GRC,GR,Greece,ECS,Athens,23.7166,37.9792
+GRL,GL,Greenland,ECS,Nuuk,-51.7214,64.1836
+GRD,GD,Grenada,LCN,Saint George's,-61.7449,12.0653
+GUM,GU,Guam,EAS,Agana,144.794,13.4443
+GTM,GT,Guatemala,LCN,Guatemala City,-90.5328,14.6248
+GIN,GN,Guinea,SSF,Conakry,-13.7,9.51667
+GNB,GW,Guinea-Bissau,SSF,Bissau,-15.1804,11.8037
+GUY,GY,Guyana,LCN,Georgetown,-58.1548,6.80461
+HTI,HT,Haiti,LCN,Port-au-Prince,-72.3288,18.5392
+HND,HN,Honduras,LCN,Tegucigalpa,-87.4667,15.1333
+HUN,HU,Hungary,ECS,Budapest,19.0408,47.4984
+ISL,IS,Iceland,ECS,Reykjavik,-21.8952,64.1353
+IND,IN,India,SAS,New Delhi,77.225,28.6353
+IDN,ID,Indonesia,EAS,Jakarta,106.83,-6.19752
+IRN,IR,"Iran, Islamic Rep.",MEA,Tehran,51.4447,35.6878
+IRQ,IQ,Iraq,MEA,Baghdad,44.394,33.3302
+IRL,IE,Ireland,ECS,Dublin,-6.26749,53.3441
+IMN,IM,Isle of Man,ECS,Douglas,-4.47928,54.1509
+ITA,IT,Italy,ECS,Rome,12.4823,41.8955
+JAM,JM,Jamaica,LCN,Kingston,-76.792,17.9927
+JPN,JP,Japan,EAS,Tokyo,139.77,35.67
+JOR,JO,Jordan,MEA,Amman,35.9263,31.9497
+KAZ,KZ,Kazakhstan,ECS,Astana,71.4382,51.1879
+KEN,KE,Kenya,SSF,Nairobi,36.8126,-1.27975
+KIR,KI,Kiribati,EAS,Tarawa,172.979,1.32905
+PRK,KP,"Korea, Dem. People's Rep.",EAS,Pyongyang,125.754,39.0319
+KOR,KR,"Korea, Rep.",EAS,Seoul,126.957,37.5323
+XKX,XK,Kosovo,ECS,Pristina,20.926,42.565
+KWT,KW,Kuwait,MEA,Kuwait City,47.9824,29.3721
+KGZ,KG,Kyrgyz Republic,ECS,Bishkek,74.6057,42.8851
+LAO,LA,Lao PDR,EAS,Vientiane,102.177,18.5826
+LVA,LV,Latvia,ECS,Riga,24.1048,56.9465
+LBN,LB,Lebanon,MEA,Beirut,35.5134,33.8872
+LSO,LS,Lesotho,SSF,Maseru,27.7167,-29.5208
+LBR,LR,Liberia,SSF,Monrovia,-10.7957,6.30039
+LBY,LY,Libya,MEA,Tripoli,13.1072,32.8578
+LIE,LI,Liechtenstein,ECS,Vaduz,9.52148,47.1411
+LTU,LT,Lithuania,ECS,Vilnius,25.2799,54.6896
+LUX,LU,Luxembourg,ECS,Luxembourg,6.1296,49.61
+MDG,MG,Madagascar,SSF,Antananarivo,45.7167,-20.4667
+MWI,MW,Malawi,SSF,Lilongwe,33.7703,-13.9899
+MYS,MY,Malaysia,EAS,Kuala Lumpur,101.684,3.12433
+MDV,MV,Maldives,SAS,Male,73.5109,4.1742
+MLI,ML,Mali,SSF,Bamako,-7.50034,13.5667
+MLT,MT,Malta,MEA,Valletta,14.5189,35.9042
+MHL,MH,Marshall Islands,EAS,Majuro,171.135,7.11046
+MRT,MR,Mauritania,SSF,Nouakchott,-15.9824,18.2367
+MUS,MU,Mauritius,SSF,Port Louis,57.4977,-20.1605
+MEX,MX,Mexico,LCN,Mexico City,-99.1276,19.427
+FSM,FM,"Micronesia, Fed. Sts.",EAS,Palikir,158.185,6.91771
+MDA,MD,Moldova,ECS,Chisinau,28.8497,47.0167
+MCO,MC,Monaco,ECS,Monaco,7.41891,43.7325
+MNG,MN,Mongolia,EAS,Ulaanbaatar,106.937,47.9129
+MNE,ME,Montenegro,ECS,Podgorica,19.2595,42.4602
+MAR,MA,Morocco,MEA,Rabat,-6.8704,33.9905
+MOZ,MZ,Mozambique,SSF,Maputo,32.5713,-25.9664
+MMR,MM,Myanmar,EAS,Naypyidaw,95.9562,21.914
+NAM,NA,Namibia,SSF,Windhoek,17.0931,-22.5648
+NRU,NR,Nauru,EAS,Yaren District,166.920867,-0.5477
+NPL,NP,Nepal,SAS,Kathmandu,85.3157,27.6939
+NLD,NL,Netherlands,ECS,Amsterdam,4.89095,52.3738
+NCL,NC,New Caledonia,EAS,Noum'ea,166.464,-22.2677
+NZL,NZ,New Zealand,EAS,Wellington,174.776,-41.2865
+NIC,NI,Nicaragua,LCN,Managua,-86.2734,12.1475
+NER,NE,Niger,SSF,Niamey,2.1073,13.514
+NGA,NG,Nigeria,SSF,Abuja,7.48906,9.05804
+MKD,MK,North Macedonia,ECS,Skopje,21.4361,42.0024
+MNP,MP,Northern Mariana Islands,EAS,Saipan,145.765,15.1935
+NOR,NO,Norway,ECS,Oslo,10.7387,59.9138
+OMN,OM,Oman,MEA,Muscat,58.5874,23.6105
+PAK,PK,Pakistan,MEA,Islamabad,72.8,30.5167
+PLW,PW,Palau,EAS,Koror,134.479,7.34194
+PAN,PA,Panama,LCN,Panama City,-79.5188,8.99427
+PNG,PG,Papua New Guinea,EAS,Port Moresby,147.194,-9.47357
+PRY,PY,Paraguay,LCN,Asuncion,-57.6362,-25.3005
+PER,PE,Peru,LCN,Lima,-77.0465,-12.0931
+PHL,PH,Philippines,EAS,Manila,121.035,14.5515
+POL,PL,Poland,ECS,Warsaw,21.02,52.26
+PRT,PT,Portugal,ECS,Lisbon,-9.13552,38.7072
+PRI,PR,Puerto Rico (US),LCN,San Juan,-66,18.23
+QAT,QA,Qatar,MEA,Doha,51.5082,25.2948
+ROU,RO,Romania,ECS,Bucharest,26.0979,44.4479
+RUS,RU,Russian Federation,ECS,Moscow,37.6176,55.7558
+RWA,RW,Rwanda,SSF,Kigali,30.0587,-1.95325
+WSM,WS,Samoa,EAS,Apia,-171.752,-13.8314
+SMR,SM,San Marino,ECS,San Marino,12.4486,43.9322
+STP,ST,Sao Tome and Principe,SSF,Sao Tome,6.6071,0.20618
+SAU,SA,Saudi Arabia,MEA,Riyadh,46.6977,24.6748
+SEN,SN,Senegal,SSF,Dakar,-17.4734,14.7247
+SRB,RS,Serbia,ECS,Belgrade,20.4656,44.8024
+SYC,SC,Seychelles,SSF,Victoria,55.4466,-4.6309
+SLE,SL,Sierra Leone,SSF,Freetown,-13.2134,8.4821
+SGP,SG,Singapore,EAS,Singapore,103.85,1.28941
+SXM,SX,Sint Maarten (Dutch part),LCN,Philipsburg,,
+SVK,SK,Slovak Republic,ECS,Bratislava,17.1073,48.1484
+SVN,SI,Slovenia,ECS,Ljubljana,14.5044,46.0546
+SLB,SB,Solomon Islands,EAS,Honiara,159.949,-9.42676
+SOM,SO,"Somalia, Fed. Rep.",SSF,Mogadishu,45.3254,2.07515
+ZAF,ZA,South Africa,SSF,Pretoria,28.1871,-25.746
+SSD,SS,South Sudan,SSF,Juba,31.6,4.85
+ESP,ES,Spain,ECS,Madrid,-3.70327,40.4167
+LKA,LK,Sri Lanka,SAS,Colombo,79.8528,6.92148
+KNA,KN,St. Kitts and Nevis,LCN,Basseterre,-62.7309,17.3
+LCA,LC,St. Lucia,LCN,Castries,-60.9832,14
+MAF,MF,St. Martin (French part),LCN,Marigot,,
+VCT,VC,St. Vincent and the Grenadines,LCN,Kingstown,-61.2653,13.2035
+SDN,SD,Sudan,SSF,Khartoum,32.5363,15.5932
+SUR,SR,Suriname,LCN,Paramaribo,-55.1679,5.8232
+SWE,SE,Sweden,ECS,Stockholm,18.0645,59.3327
+CHE,CH,Switzerland,ECS,Bern,7.44821,46.948
+SYR,SY,Syrian Arab Republic,MEA,Damascus,36.3119,33.5146
+TJK,TJ,Tajikistan,ECS,Dushanbe,68.7864,38.5878
+TZA,TZ,Tanzania,SSF,Dodoma,35.7382,-6.17486
+THA,TH,Thailand,EAS,Bangkok,100.521,13.7308
+TLS,TL,Timor-Leste,EAS,Dili,125.567,-8.56667
+TGO,TG,Togo,SSF,Lome,1.2255,6.1228
+TON,TO,Tonga,EAS,Nuku'alofa,-175.216,-21.136
+TTO,TT,Trinidad and Tobago,LCN,Port-of-Spain,-61.4789,10.6596
+TUN,TN,Tunisia,MEA,Tunis,10.21,36.7899
+TUR,TR,Turkiye,ECS,Ankara,32.3606,39.7153
+TKM,TM,Turkmenistan,ECS,Ashgabat,58.3794,37.9509
+TCA,TC,Turks and Caicos Islands,LCN,Grand Turk,-71.141389,21.4602778
+TUV,TV,Tuvalu,EAS,Funafuti,179.089567,-8.6314877
+UGA,UG,Uganda,SSF,Kampala,32.5729,0.314269
+UKR,UA,Ukraine,ECS,Kiev,30.5038,50.4536
+ARE,AE,United Arab Emirates,MEA,Abu Dhabi,54.3705,24.4764
+GBR,GB,United Kingdom,ECS,London,-0.126236,51.5002
+USA,US,United States,NAC,Washington D.C.,-77.032,38.8895
+URY,UY,Uruguay,LCN,Montevideo,-56.0675,-34.8941
+UZB,UZ,Uzbekistan,ECS,Tashkent,69.269,41.3052
+VUT,VU,Vanuatu,EAS,Port-Vila,168.321,-17.7404
+VEN,VE,"Venezuela, RB",LCN,Caracas,-69.8371,9.08165
+VNM,VN,Viet Nam,EAS,Hanoi,105.825,21.0069
+VIR,VI,Virgin Islands (U.S.),LCN,Charlotte Amalie,-64.8963,18.3358
+YEM,YE,"Yemen, Rep.",MEA,Sana'a,44.2075,15.352
+ZMB,ZM,Zambia,SSF,Lusaka,28.2937,-15.3982
+ZWE,ZW,Zimbabwe,SSF,Harare,31.0672,-17.8312
